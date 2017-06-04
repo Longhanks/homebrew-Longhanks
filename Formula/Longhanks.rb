@@ -19,5 +19,6 @@ class Longhanks < Formula
   depends_on "zsh"
 
   def install
+      puts "Meta formula installed."
   end
 end
