@@ -2,7 +2,7 @@ class Longhanks < Formula
   desc "Meta formula for my desired formulae"
   homepage "https://github.com/Longhanks/homebrew-Longhanks"
   url "https://github.com/Longhanks/mock-formula/archive/1.0.0.tar.gz"
-  sha256 "5385fe5b81158140757ad45d36f6dece893efbea4496ab027135bf275a987e1f"
+  sha256 "311f0339c093070eb3ac9452b58a1fd32a95218b8e40cd454af835bd16d2a686"
 
   depends_on "cmake"
   depends_on "dcfldd"
