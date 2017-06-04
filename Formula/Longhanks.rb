@@ -1,8 +1,8 @@
 class Longhanks < Formula
   desc "Meta formula for my desired formulae"
   homepage "https://github.com/Longhanks/homebrew-Longhanks"
-  url "https://github.com/Longhanks/homebrew-Longhanks/archive/0.0.1.tar.gz"
-  sha256 "69b572f65585d2c418bad84115016b7db80df93d691ea29da5b71a338fa57e53"
+  url "https://github.com/Longhanks/mock-formula/archive/1.0.0.tar.gz"
+  sha256 "5385fe5b81158140757ad45d36f6dece893efbea4496ab027135bf275a987e1f"
 
   depends_on "dcfldd"
   depends_on "htop"
@@ -19,6 +19,7 @@ class Longhanks < Formula
   depends_on "zsh"
 
   def install
-      puts "Meta formula installed."
+      system "cmake", ".", *std_cmake_args
+      system "make", "install"
   end
 end
