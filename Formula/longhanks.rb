@@ -1,4 +1,4 @@
-class longhanks < Formula
+class Longhanks < Formula
   desc "Meta formula for my desired formulae"
   homepage "https://github.com/Longhanks/homebrew-Longhanks"
   url "https://github.com/Longhanks/mock-formula/archive/1.0.0.tar.gz"
