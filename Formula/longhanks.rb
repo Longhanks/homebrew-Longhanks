@@ -9,7 +9,7 @@ class Longhanks < Formula
   depends_on "htop"
   depends_on "most"
   depends_on "neofetch"
-  depends_on "neovim/neovim/neovim"
+  depends_on "neovim"
   depends_on "nmap"
   depends_on "pyqt"
   depends_on "python"
