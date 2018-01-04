@@ -4,7 +4,6 @@ class Longhanks < Formula
   url "https://github.com/Longhanks/mock-formula/archive/1.0.0.tar.gz"
   sha256 "311f0339c093070eb3ac9452b58a1fd32a95218b8e40cd454af835bd16d2a686"
 
-  depends_on "carthage"
   depends_on "cmake"
   depends_on "coreutils"
   depends_on "dcfldd"
