@@ -7,7 +7,7 @@ class Longhanks < Formula
   depends_on "cmake"
   depends_on "coreutils"
   depends_on "dcfldd"
-  depends_on "htop"
+  depends_on "httpie"
   depends_on "ipython"
   depends_on "most"
   depends_on "neofetch"
