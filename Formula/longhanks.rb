@@ -5,7 +5,6 @@ class Longhanks < Formula
   sha256 "311f0339c093070eb3ac9452b58a1fd32a95218b8e40cd454af835bd16d2a686"
 
   depends_on "cmake"
-  depends_on "coreutils"
   depends_on "dcfldd"
   depends_on "httpie"
   depends_on "ipython"
